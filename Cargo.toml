@@ -1,0 +1,10 @@
+[package]
+name = "aes_gcm_siv_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm-siv = "0.11.1"
+anyhow = "1.0.94"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
